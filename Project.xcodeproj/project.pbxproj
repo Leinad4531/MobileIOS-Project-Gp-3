@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515887062BD0C8220043A68E /* AddGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515887052BD0C8220043A68E /* AddGroup.swift */; };
 		654690152B79B857009951CF /* ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690142B79B857009951CF /* ProjectApp.swift */; };
 		654690172B79B857009951CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690162B79B857009951CF /* HomeView.swift */; };
 		6546901B2B79B858009951CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6546901A2B79B858009951CF /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		515887052BD0C8220043A68E /* AddGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroup.swift; sourceTree = "<group>"; };
 		654690112B79B857009951CF /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654690142B79B857009951CF /* ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApp.swift; sourceTree = "<group>"; };
 		654690162B79B857009951CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				6546904A2B7A0931009951CF /* ProductGroupView.swift */,
 				6546904C2B7A0A11009951CF /* SummaryView.swift */,
 				6546904E2B7A0A5F009951CF /* QuickAccessButtons.swift */,
+				515887052BD0C8220043A68E /* AddGroup.swift */,
 				654690502B7A0E3B009951CF /* GroupDetailView.swift */,
 				654690562B7A214E009951CF /* ShoppingListView.swift */,
 				654690582B7A3065009951CF /* SplashView.swift */,
@@ -287,6 +290,7 @@
 				654690172B79B857009951CF /* HomeView.swift in Sources */,
 				654690592B7A3065009951CF /* SplashView.swift in Sources */,
 				654690532B7A0F86009951CF /* Item.swift in Sources */,
+				515887062BD0C8220043A68E /* AddGroup.swift in Sources */,
 				654690152B79B857009951CF /* ProjectApp.swift in Sources */,
 				654690512B7A0E3B009951CF /* GroupDetailView.swift in Sources */,
 				654690572B7A214E009951CF /* ShoppingListView.swift in Sources */,
@@ -454,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Project/Preview Content\"";
+				DEVELOPMENT_TEAM = QDPDV4NB6F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -466,7 +471,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -490,6 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Project/Preview Content\"";
+				DEVELOPMENT_TEAM = QDPDV4NB6F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -502,7 +508,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;

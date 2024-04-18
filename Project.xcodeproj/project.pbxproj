@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		515887062BD0C8220043A68E /* AddGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515887052BD0C8220043A68E /* AddGroup.swift */; };
+		510461932BD07D8000F817F3 /* SymbolPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 510461922BD07D8000F817F3 /* SymbolPicker */; };
+		515348582BCE2FD3002ED579 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515348572BCE2FD3002ED579 /* ItemView.swift */; };
 		654690152B79B857009951CF /* ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690142B79B857009951CF /* ProjectApp.swift */; };
 		654690172B79B857009951CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690162B79B857009951CF /* HomeView.swift */; };
 		6546901B2B79B858009951CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6546901A2B79B858009951CF /* Assets.xcassets */; };
@@ -18,7 +19,7 @@
 		6546904B2B7A0931009951CF /* ProductGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6546904A2B7A0931009951CF /* ProductGroupView.swift */; };
 		6546904D2B7A0A11009951CF /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6546904C2B7A0A11009951CF /* SummaryView.swift */; };
 		6546904F2B7A0A5F009951CF /* QuickAccessButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6546904E2B7A0A5F009951CF /* QuickAccessButtons.swift */; };
-		654690512B7A0E3B009951CF /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690502B7A0E3B009951CF /* GroupDetailView.swift */; };
+		654690512B7A0E3B009951CF /* GroupDetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690502B7A0E3B009951CF /* GroupDetailView2.swift */; };
 		654690532B7A0F86009951CF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690522B7A0F86009951CF /* Item.swift */; };
 		654690552B7A2025009951CF /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690542B7A2025009951CF /* ShoppingItem.swift */; };
 		654690572B7A214E009951CF /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654690562B7A214E009951CF /* ShoppingListView.swift */; };
@@ -43,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		515887052BD0C8220043A68E /* AddGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroup.swift; sourceTree = "<group>"; };
+		515348572BCE2FD3002ED579 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		654690112B79B857009951CF /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654690142B79B857009951CF /* ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApp.swift; sourceTree = "<group>"; };
 		654690162B79B857009951CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -58,7 +59,7 @@
 		6546904A2B7A0931009951CF /* ProductGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGroupView.swift; sourceTree = "<group>"; };
 		6546904C2B7A0A11009951CF /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		6546904E2B7A0A5F009951CF /* QuickAccessButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAccessButtons.swift; sourceTree = "<group>"; };
-		654690502B7A0E3B009951CF /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		654690502B7A0E3B009951CF /* GroupDetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView2.swift; sourceTree = "<group>"; };
 		654690522B7A0F86009951CF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		654690542B7A2025009951CF /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
 		654690562B7A214E009951CF /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510461932BD07D8000F817F3 /* SymbolPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,10 +125,10 @@
 				6546904A2B7A0931009951CF /* ProductGroupView.swift */,
 				6546904C2B7A0A11009951CF /* SummaryView.swift */,
 				6546904E2B7A0A5F009951CF /* QuickAccessButtons.swift */,
-				515887052BD0C8220043A68E /* AddGroup.swift */,
-				654690502B7A0E3B009951CF /* GroupDetailView.swift */,
+				654690502B7A0E3B009951CF /* GroupDetailView2.swift */,
 				654690562B7A214E009951CF /* ShoppingListView.swift */,
 				654690582B7A3065009951CF /* SplashView.swift */,
+				515348572BCE2FD3002ED579 /* ItemView.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -174,6 +176,9 @@
 			dependencies = (
 			);
 			name = Project;
+			packageProductDependencies = (
+				510461922BD07D8000F817F3 /* SymbolPicker */,
+			);
 			productName = Project;
 			productReference = 654690112B79B857009951CF /* Project.app */;
 			productType = "com.apple.product-type.application";
@@ -246,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 654690082B79B856009951CF;
+			packageReferences = (
+				510461912BD07D8000F817F3 /* XCRemoteSwiftPackageReference "SymbolPicker" */,
+			);
 			productRefGroup = 654690122B79B857009951CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,11 +298,11 @@
 				654690172B79B857009951CF /* HomeView.swift in Sources */,
 				654690592B7A3065009951CF /* SplashView.swift in Sources */,
 				654690532B7A0F86009951CF /* Item.swift in Sources */,
-				515887062BD0C8220043A68E /* AddGroup.swift in Sources */,
 				654690152B79B857009951CF /* ProjectApp.swift in Sources */,
-				654690512B7A0E3B009951CF /* GroupDetailView.swift in Sources */,
+				654690512B7A0E3B009951CF /* GroupDetailView2.swift in Sources */,
 				654690572B7A214E009951CF /* ShoppingListView.swift in Sources */,
 				654690472B7A07D1009951CF /* ProductGroup.swift in Sources */,
+				515348582BCE2FD3002ED579 /* ItemView.swift in Sources */,
 				6546904B2B7A0931009951CF /* ProductGroupView.swift in Sources */,
 				654690552B7A2025009951CF /* ShoppingItem.swift in Sources */,
 				6546904F2B7A0A5F009951CF /* QuickAccessButtons.swift in Sources */,
@@ -531,7 +539,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.georgebrown.ProjectTests;
@@ -553,7 +561,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.georgebrown.ProjectTests;
@@ -574,7 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.georgebrown.ProjectUITests;
@@ -595,7 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.georgebrown.ProjectUITests;
@@ -649,6 +657,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		510461912BD07D8000F817F3 /* XCRemoteSwiftPackageReference "SymbolPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xnth97/SymbolPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		510461922BD07D8000F817F3 /* SymbolPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 510461912BD07D8000F817F3 /* XCRemoteSwiftPackageReference "SymbolPicker" */;
+			productName = SymbolPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 654690092B79B856009951CF /* Project object */;
 }

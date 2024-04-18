@@ -25,11 +25,7 @@ struct ProjectApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-                SplashView()
-            }
+            SplashView()
         }
-        .modelContainer(for: ProductGroup.self)
-        .modelContainer(for: Item.self)
     }
 }

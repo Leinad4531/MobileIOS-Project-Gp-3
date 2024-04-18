@@ -27,5 +27,6 @@ struct ProductGroupView: View {
         .padding()
         .background(Color(.secondarySystemBackground))
         .cornerRadius(10)
+        .modelContainer(for: ProductGroup.self)
     }
 }

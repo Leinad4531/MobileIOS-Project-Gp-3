@@ -2,7 +2,7 @@
 //  Item.swift
 //  Project
 //
-//  Created by Olamitide Akomolafe on 2024-02-12.
+//  Created by Anand Biehl on 2024-04-17.
 //
 
 import Foundation
@@ -32,3 +32,4 @@ class Item {
         self.purchased = purchased
     }
 }
+
